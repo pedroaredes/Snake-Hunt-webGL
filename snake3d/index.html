@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <h1 id ="name" class="center">
+            Snake Hunt!
+        </h1>
+        <hr id = "listra1"><hr id = "listra2"><hr id = "listra3">
+        <script src="gl-matrix.js"></script>
+        <script src="programa.js"></script>
+    </head>
+    <body class="bg-dark">
+        <style>
+
+        h1 {
+        font-family:'Comic Sans MS';
+        font-size: 36px;
+        color:darkslateblue;
+        }
+        .center {
+            text-align: center;
+        }
+        .margem {
+            text-align: left
+        }
+            hr {
+            border-color:darkslateblue;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        h2 {
+            font-family: 'Comic Sans MS';
+            font-size: 20px;
+            color:darkslateblue;
+        }
+        body{
+            background-image: url("snake.jpg");
+            background-attachment: fixed;            
+        }
+        </style>
+            <div class="margem">
+                    <h2 id="score"  class="center">Score: 0</h2>
+                    <h2 id ="inst1">  Instructions: eat as many apple as u can without bite yourself! Watch out.</h2>
+                    <h2 id ="inst3">  The golden apple gives u +15 points and +2 size</h2>
+                    <h2 id ="inst2" >You can move by pressing the Arrow Keys. Press any arrow key to start</h2>
+        <canvas id ="Canvas" style="position: fixed; top:0; left: 0;"></canvas>
+    </body>
+</html>
